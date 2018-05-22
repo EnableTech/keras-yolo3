@@ -15,7 +15,7 @@ A Keras implementation of YOLOv3 (Tensorflow backend) inspired by [allanzelener/
 3. Run YOLO detection.
 
 ```
-wget https://pjreddie.com/media/files/yolov3.weights
+curl -OL https://pjreddie.com/media/files/yolov3.weights
 python convert.py yolov3.cfg yolov3.weights model_data/yolo.h5
 python yolo.py   OR   python yolo_video.py
 ```
