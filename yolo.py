@@ -177,7 +177,7 @@ def detect_video(yolo, video_path):
 
 def detect_img(yolo):
     while True:
-        img = input('Input image filename:')
+        img = raw_input('Input image filename:')
         try:
             image = Image.open(img)
         except:
